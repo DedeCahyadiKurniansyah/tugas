@@ -1,0 +1,25 @@
+Quiz
+1. Jelaskan arti angka dari versi python (3.10.0.)
+2. Buatlah tutorial setiap fugsi pada tools vs-code
+3. Sebutkan dan jelaskan ekstension itu apa, dan contohnya dan penerapannya(didalam vs code)
+
+jawaban
+
+1 arti angka dari versi python (3.10.0.)
+-dengan versi 3.10.0, pengguna dapat melihat deskripsi error yang lebih spesifik, posisi error dan nomor line yang akurat. 
+2 Buatlah tutorial setiap fugsi pada tools vs-code
+-Integrated Terminal
+  1 = Script kode yang kita buat untuk menampilkan teks
+  2 = Terminal yang terintegrasi digunakan untuk menjalankan program
+  3 = Opsi untuk menambah atau berganti terminal
+3 Sebutkan dan jelaskan ekstension itu apa, dan contohnya dan penerapannya(didalam vs code)
+-WakaTime
+ begitu namanya Ekstensi ini melacak semua aktivitas koding kita, berapa waktu yang kita habiskan untuk koding dan bahasa apa yang sering kita pakai dan berapa banyak project yang telah kita selesaikan selama menggunakan Visual Studio Code.
+-Visual Studio Intellicode
+ ini membantu kita dengan Artificial Intelligence-Assisted Intellisense yang bisa memberi saran kepada kita kode lanjutan dari kode yang sudah kita tuliskan
+-Live Server 
+ Kita tidak perlu menekan tombol reload berkali-kali untuk setiap perubahan yang kita lakukan di project kita
+-Path Intellisense
+ sangat membantu dan berguna dalam hal import dependecies, memasukkan gambar ke dokumen, link file javascript atau css dan semua hal yang berkaitan dengan path file
+-Prettier
+Masalah utama saat koding adalah indentasi yang meskipun secara teknis hanya berpengaruh apa python tetapi saat menulis kode dengan menggunakan indentasi yang benar 
