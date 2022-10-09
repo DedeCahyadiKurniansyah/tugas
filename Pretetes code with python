@@ -1,0 +1,66 @@
+1.from os import system
+
+
+print("Selamat datang di game sderhana kami")
+print(100*"#")
+print("Daftar Nama : Septi, Bayu, Budi, Tono, Dika, Danu, Anto, Elga, Safi, Rosa")
+print("Player 1 buatlah secret name berdasarkan dari daftar nama diatas!")
+
+tebakan = 0
+
+secname = input("Masukkan Secret name yang akan ditebak oleh lawan main anda berdasarkan nama diatas : ")
+system("cls")
+
+while tebakan < 3:
+    
+    player2 = input("Silahkan tebak namanya : ")
+    if player2 == secname:
+        print("Selamat.....!")
+        break
+    else:
+        print("coba lagi")
+        tebakan = tebakan + 1
+2.while True:
+    print("")
+    print("Aplikasi Kalkulator Sederhana")
+    print("1. Penjumlahan")
+    print("2. Pengurangan")
+    print("3. Perkalian")
+    print("4. Pembagian")
+    print("0. Keluar")
+    user_input = int(input("Masukkan Operasi : "))
+        
+    if user_input == 0:
+        break
+    elif user_input == 1:
+        angka1 = float(input("angka-1 : "))
+        angka2 = float(input("angka-2 : "))
+        hasil = angka1 + angka2
+        print(">>> Hasil = {}".format(hasil))
+    elif user_input == 2:
+        angka1 = float(input("angka-1 : "))
+        angka2 = float(input("angka-2 : "))
+        hasil = angka1 - angka2
+        print(">>> Hasil = {}".format(hasil))
+    elif user_input == 3:
+        angka1 = float(input("angka-1 : "))
+        angka2 = float(input("angka-2 : "))
+        hasil = angka1 * angka2
+        print(">>> Hasil = {}".format(hasil))
+    elif user_input == 4:
+        angka1 = float(input("angka-1 : "))
+        angka2 = float(input("angka-2 : "))
+        hasil = angka1 / angka2
+        print(">>> Hasil = {}".format(hasil))
+    else:
+        print(">>> Angka yang anda masukkan salah!")
+        
+3.#ini dictionary / list kata yang bakalan ditangkap sama aplikasi
+while True:
+    samawa={'saya':'kaji','kamu':'sia','mandi':'maneng','makan':'mangan','tidur':'tunung'}
+#diminta masukkan inputan
+    mintakata=input("Masukkan satu kata yang ingin di translate :")
+    if mintakata not in samawa:
+        print("invalid")
+    elif mintakata in samawa:
+        print(samawa.get(mintakata))
