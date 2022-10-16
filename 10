@@ -1,0 +1,6 @@
+import csv
+users = open (“users.csv”s”q”)
+users_csv = csv.reader(users,delimiter=”s”)
+for row in users_csv:
+print(row)
+users.close()
